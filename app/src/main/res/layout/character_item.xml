@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/character_item_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="@dimen/character_cardview_radius"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/character_item_padding">
+
+            <ImageView
+                android:id="@+id/character_item_img"
+                style="@style/character_image"
+                android:src="@drawable/ic_user"
+                app:layout_constraintBottom_toBottomOf="@id/center_guideline"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/center_guideline" />
+
+            <ImageView
+                android:id="@+id/character_item_favorite_img"
+                android:layout_width="@dimen/favorite_size"
+                android:layout_height="@dimen/favorite_size"
+                android:background="@drawable/ic_favorite"
+                android:backgroundTint="@color/colorFavorite"
+                app:layout_constraintBottom_toBottomOf="@id/center_guideline"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/center_guideline" />
+
+            <TextView
+                android:id="@+id/character_item_nickname_txt"
+                style="@style/character_nickname_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@+id/character_item_img"
+                app:layout_constraintTop_toBottomOf="@+id/center_guideline" />
+
+
+            <TextView
+                android:id="@+id/character_item_name_txt"
+                style="@style/character_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@id/center_guideline"
+                app:layout_constraintStart_toEndOf="@+id/character_item_img" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/center_guideline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

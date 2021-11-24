@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BreakingBad" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorLightGreen</item>
+        <item name="colorSecondaryVariant">@color/colorGreen</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="character_name_txt">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/acherus_militant_bold</item>
+        <item name="android:layout_marginLeft">@dimen/character_name_margin_left</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="character_nickname_txt">
+        <item name="fontFamily">@font/acherus_militant_light</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:layout_marginLeft">@dimen/character_nickname_margin_left</item>
+    </style>
+
+    <style name="character_image">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="elevation">5dp</item>
+    </style>
+</resources>
