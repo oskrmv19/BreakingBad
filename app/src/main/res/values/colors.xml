@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="toolbar">#92B193</color>
+    <color name="background_item">#EAEAEA</color>
+    <color name="colorGreen">#5cd242</color>
+    <color name="colorLightGreen">#009688</color>
+    <color name="colorGray">#8A8A8A</color>
+    <color name="inactivityGray">#BBBBBB</color>
+    <color name="textColorDetail">#012353</color>
+    <color name="colorFavorite">#009688</color>
+    <color name="primaryColor">#009688</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="trasparent">#00000000</color>
+</resources>

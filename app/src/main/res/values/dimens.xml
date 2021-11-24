@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="character_item_margin">5dp</dimen>
+    <dimen name="character_item_margin_between">8dp</dimen>
+    <dimen name="characters_margin_bottom">10dp</dimen>
+    <dimen name="character_nickname_margin_left">10dp</dimen>
+    <dimen name="character_name_margin_left">10dp</dimen>
+    <dimen name="character_cardview_radius">10dp</dimen>
+    <dimen name="character_item_padding">5dp</dimen>
+    <dimen name="favorite_size">32dp</dimen>
+</resources>
